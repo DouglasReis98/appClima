@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppCLIMA</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="font-awesome/css/fontawesome.css" rel="stylesheet">
+    <link href="font-awesome/css/brands.css" rel="stylesheet">
+    <link href="font-awesome/css/solid.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>AppCLIMA</h1>
+        <div class="select_cidade">
+            <label for="cidade">Digite a cidade:</label>
+            <input type="text" id="cidade">
+
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div id="cidade-data">
+            <h3 class="cidade"><i class="fa-solid fa-location-dot"></i><span>Cidade</span></h3>
+            <h3 class="data">00/00/0000</h3>
+        </div>
+
+        <div class="detalhes">
+            <p class="temperatura"><span>0°</span></p>
+            <p class="condicao">Condição: <span>[Condição Atual]</span></p>
+            <p class="umidade">Umidade: <span>[0]</span>%</p>
+            <p class="vento">Vento: <span>[0]</span>m/s</p>
+        </div>
+        <div class="btn-atualizar">
+            <button>Atualizar</button>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
